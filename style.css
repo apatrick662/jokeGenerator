@@ -1,0 +1,46 @@
+/* ADAM PATRICK */
+
+/* navbar */
+
+a {
+	text-decoration: none;
+}
+
+
+.nav:hover {
+    background: linear-gradient(#000000, #3e4144);
+}
+
+.current_page_item {
+    background: linear-gradient(#000000, #3e4144);
+}
+
+#navbar-wrapper {
+    margin: 0;
+}
+
+#navbar {
+    background: linear-gradient(#3e4144, #000000);
+    height: 60px;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+}
+
+#navbar ul {
+    list-style-type: none;
+    line-height: normal;
+    margin: 0px;
+    padding-top: 20px;
+}
+
+#navbar li {
+    display: inline;
+    padding: 20px;
+}
+
+#navbar a{
+    color: white;
+}
