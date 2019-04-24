@@ -1,5 +1,10 @@
 /* ADAM PATRICK */
 
+html{
+    font-size: 16px;
+    font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 /* navbar */
 
 a {
