@@ -18,9 +18,15 @@ var wrightJokes = [
 
 var joke = document.getElementById("joke");
 var generate = document.getElementById("generateMitchJoke");
+// var generateSteven = document.getElementById("generateStevenJoke");
 
 
 function displayMitchJoke() {
+
+    while(joke.firstChild){
+        joke.removeChild(joke.firstChild)
+    }
+
     var jokeNum = Math.floor((Math.random() * 5));
     var newJoke = document.createElement("p");
     newJoke.classList.add("gen");
@@ -28,4 +34,18 @@ function displayMitchJoke() {
     joke.appendChild(newJoke);
 }
 
+// function displayStevenJoke() {
+
+//     while(joke.firstChild){
+//         joke.removeChild(joke.firstChild)
+//     }
+
+//     var jokeNum = Math.floor((Math.random() * 5));
+//     var newJoke = document.createElement("p");
+//     newJoke.classList.add("gen");
+//     newJoke.textContent = wrightJokes[jokeNum];
+//     joke.appendChild(newJoke);
+// }
+
 generate.addEventListener("click", displayMitchJoke);
+// generateSteven.addEventListener("click", displayStevenJoke);
