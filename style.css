@@ -54,7 +54,9 @@ a {
 /*joke*/
 
 .joke-wrapper {
-    width: 75%;
+    background-color: azure;
+    width: 450px;
+    height: 600px;
     margin: auto;
     text-align: center;
 }
