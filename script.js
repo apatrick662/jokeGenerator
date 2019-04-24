@@ -19,8 +19,13 @@ var wrightJokes = [
 var joke = document.getElementById("joke");
 var generate = document.getElementById("generateJoke");
 
+
 function displayMitchJoke() {
+    var jokeNum = Math.floor((Math.random() * 5));
     var newJoke = document.createElement("p");
     newJoke.classList.add("gen");
+    newJoke.textContent = mitchJokes[jokeNum];
     joke.appendChild(newJoke);
 }
+
+generate.addEventListener("click", displayMitchJoke);
