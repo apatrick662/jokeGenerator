@@ -17,7 +17,7 @@ var wrightJokes = [
 ];
 
 var joke = document.getElementById("joke");
-var generate = document.getElementById("generateJoke");
+var generate = document.getElementById("generateMitchJoke");
 
 
 function displayMitchJoke() {
