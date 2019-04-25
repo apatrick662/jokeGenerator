@@ -62,13 +62,17 @@ a {
     margin: auto;
     margin-top: 200px;
     text-align: center;
+    font-size: 40px; 
+    border: black 2px solid;
 }
 
 .generateJoke {
-    height: 30px;
-    width: 100px;
+    height: 60px;
+    width: 400px;
     background: linear-gradient(#d60e0e, #6d0707);
     margin-top: 40px;
+    color: white;
+    font-size: 40px;
 }
 
 .joke {
