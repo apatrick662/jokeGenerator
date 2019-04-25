@@ -1,10 +1,18 @@
 /* ADAM PATRICK */
 
+/* * {
+    border: solid 1px red;
+} */
+
 html{
     font-size: 16px;
     font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background: linear-gradient(#db1ad1,#ff6600);
     background-repeat: no-repeat;
+}
+
+body {
+    padding-bottom: 150px;
 }
 
 /* navbar */
@@ -13,6 +21,9 @@ a {
 	text-decoration: none;
 }
 
+h1 {
+    text-align: center;
+}
 
 .nav:hover {
     background: linear-gradient(#000000, #3e4144);
@@ -60,7 +71,7 @@ a {
     width: 450px;
     height: 600px;
     margin: auto;
-    margin-top: 200px;
+    margin-top: 50px;
     text-align: center;
     font-size: 40px; 
     border: black 2px solid;
